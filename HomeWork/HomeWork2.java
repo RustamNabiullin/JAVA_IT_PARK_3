@@ -4,9 +4,9 @@ public class HomeWork2 {
         Scanner scanner = new Scanner(System.in);
         int sum1 = 0;
         int sum2 = 0;
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 999; i++) {
 		int x = scanner.nextInt();
-			if (x<=10){
+			if (x<=1000){
 				sum1 = sum1 + x;
 			}
 			else {
@@ -14,8 +14,8 @@ public class HomeWork2 {
 			}
 		}
 		int y = 0;
-		for (int i = 0; i < 10; i++) {	
-			if (y<=10) {
+		for (int i = 0; i < 1000; i++) {	
+			if (y<=1000) {
 				y = y + 1;
 				sum2 = sum2 + y;
 			}
