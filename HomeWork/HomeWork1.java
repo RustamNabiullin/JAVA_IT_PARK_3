@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Bankomat {
+class HomeWork1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
